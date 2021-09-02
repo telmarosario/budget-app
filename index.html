@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Budget App</title>
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/1061/1924/products/Money_with_Wings_Emoji_grande.png?v=1571606064">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Balance</h1>
+      <span id="balance">0$</span>
+    </header>
+
+    <section>
+      <h3>Breakdown</h3>
+
+      <ul>
+        <li class="income">
+          <em>Freelancing gig</em>
+          <span>+</span>
+          <strong>100$</strong>
+        </li>
+
+        <li class="expense">
+          <em>Too much sushi</em>
+          <span>-</span>
+          <strong>100$</strong>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <input type="number" placeholder="0$" />
+      <input type="text" placeholder="Description" id="description" />
+
+      <select name="" id="">
+        <option value="income">+ Income</option>
+        <option value="expense">- Expense</option>
+      </select>
+
+      <button>Add</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
